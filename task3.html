@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+</head>
+<body>
+    <style>
+        .container{
+            border: 1px solid black;
+            padding: 20px;
+            width: 1000px;
+            margin: 0 auto;
+            align-items: left;
+            height: 80px;
+        }
+        .link-container{
+            display: flex;
+            align-items: center;
+        }
+        .link-container a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+            color:#121111;
+        }
+        .link-container a:last-child{
+            border-right: none;
+        }
+        .link-text {
+            color: #0716e6;
+        }
+
+        .slash {
+            color: rgb(10, 10, 10);
+        }
+    </style>
+    <div class="container">
+    <p><b>Click any of the following links</b></p>
+    <div class="link-container"><span class="link-text"><u>Opens in New</u></span>
+    <p><a href="https://www.google.com" target="_blank"> <span class="slash">|</span> </a></p>
+    <p><a href="https://www.google.com" target="_self"><span class="link-text"><u>Opens in Self</u></span> <span class="slash">|</span> </a></p>
+    <p><a href="https://www.google.com" target="_parent"><span class="link-text"><u>Opens in Parent</u></span> <span class="slash">|</span> </a></p>
+    <p><a href="https://www.google.com" target="_parent"><span class="link-text"><u>Opens in Body</u></span> <span class="slash">|</span> </a></p>
+    <p><a href="https://www.google.com" ><span class="link-text"><u>Send Email</u></span></a></p>
+</div>
+</div>
+    
+</body>
+</html>

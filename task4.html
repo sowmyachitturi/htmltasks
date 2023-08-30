@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+</head>
+<body>
+    <style>
+      .form-container {
+            width: 500px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+           
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-label {
+            flex: 1;
+            font-weight: bold;
+        }
+
+        .form-input{
+            flex: 1;
+            text-align: left;
+        }
+    </style>
+    <div class="form-container">
+        <h3 text-align="left">Click to add te:</h3>
+        <form>
+            <div class="form-group">
+                <label class="form-label" for="full-name">Full Name:</label>
+                <input class="form-input" type="text" id="full-name" name="full-name" value="Vincent  Maverick Durano">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="User-name">Username:</label>
+                <input class="form-input" type="text" id="User-name" name="User-name" value="Vinz">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-input" type="password" id="password" name="password" value="vinz@123">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="Re password">Re Password:</label>
+                <input class="form-input" type="password" id="Re password" name="password" value="vinz@123">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="Address">Address:</label>
+                <input class="form-input" type="text" id="Address" name="Address" value="Cebu, Philippines">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="Age">Age:</label>
+                <input class="form-input" type="text" id="Age" name="Age" value="22">
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="Gender">Gender:</label>
+                <select class="form-input" id="gender" name="gender" align-items="left">
+                    <option  value="male">Male</option>
+                    <option  value="female">Female</option>
+                    <option value="transgender">Transgender</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit">Save</button>
+        </div>
+        </form>
+</body>
+</html>  
